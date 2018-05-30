@@ -1,0 +1,30 @@
+Relações Binárias em Conjuntos
+
+Victor Hugo Silva Moura
+Ciência da Computação/ 2018/ 1º Semestre
+Matrícula: 2018054958
+
+Sequência de passos para a execução do programa
+
+1º passo:
+  Abrir o terminal e entrar, através dele, na pasta do trabalho
+
+2º passo:
+  Compilar o programa utilizando o comando gcc (gcc rb.c)
+
+3º passo:
+  Executar o arquivo gerado pelo compilador. (./a.out - Linux ou ./a.exe - Windows*)
+
+4º passo:
+  Copiar a entrada para o terminal (de acordo com o padrão). Para finalizar a entrada, basta apertar Ctrl+D (Linux) ou Ctrl+Z (Windows) e depois apertar Enter.
+
+Observações:
+A entrada padrão é dada pela seguinte fórmula:
+  - 1ª linha -> 1º número: número de elementos do conjunto
+             -> Números seguintes: identificação de cada elemento
+  - Demais linhas: pares de relações do conjunto
+
+O projeto foi desenvolvido em sua maioria em ambiente Windows, por isso, recomenda-se a utilização deste sistema operacional.
+Para utilização em IDE's como CodeBlocks e Dev C++, basta executar o código rb.c e seguir o passo 4.
+
+* Os testes em Windows foram feitos através do Windows PowerShell, portanto é recomendado que se utilize ele.
