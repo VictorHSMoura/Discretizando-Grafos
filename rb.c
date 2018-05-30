@@ -300,8 +300,10 @@ int main(){
   reflex = checaReflex(grafo, qteElem, grReflex, elementos);
   simet = checaSimetria(grafo, qteElem, grSimet, elementos);
   trans = checaTransitividade(grafo, qteElem, grTrans, elementos);
+  printf("\n");
   checaEquivalencia(reflex, simet, trans);
   checaOrdemParcial(reflex, simet, trans);
+  printf("\n");
   if(!reflex){
     fecho(grReflex, qteElem, "reflexivo", elementos);
   }
