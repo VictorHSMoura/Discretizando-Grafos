@@ -1,4 +1,4 @@
-Relações Binárias em Conjuntos
+﻿Relações Binárias em Conjuntos
 
 Victor Hugo Silva Moura
 Ciência da Computação/ 2018/ 1º Semestre
@@ -27,4 +27,9 @@ A entrada padrão é dada pela seguinte fórmula:
 O projeto foi desenvolvido em sua maioria em ambiente Windows, por isso, recomenda-se a utilização deste sistema operacional.
 Para utilização em IDE's como CodeBlocks e Dev C++, basta executar o código rb.c e seguir o passo 4.
 
-* Os testes em Windows foram feitos através do Windows PowerShell, portanto é recomendado que se utilize ele.
+Um modo mais "fácil" de executar é por meio de redirecionamento de entrada. Isso deve ser feito no prompt de comando (Windows) ou terminal (Linux)
+Para o Windows, basta entrar na pasta pelo prompt, compilar o programa com o gcc e executar da seguinte forma: a.exe < "nomeDoArquivo".txt
+onde "nomeDoArquivo" é o nome do arquivo a ser testado.
+No Linux, basta seguir a mesma coisa mencionada acima e, na hora de executar, digitar: ./a.out < "nomeDoArquivo".txt
+
+* Os testes em Windows foram feitos através do Windows PowerShell, porém o comando de execução no prompt de comando do Windows é apenas o nome do arquivo executável. Exemplo: a.exe
